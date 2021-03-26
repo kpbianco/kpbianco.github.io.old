@@ -53,3 +53,56 @@ As a user I want to connect with other people learning a hobby to feel more fulf
 **Effort Estimation:** 6 person hours
 
 **Acceptance-Test:** Make fake forum posts and test that the user can reply to the fake post, also testing whether the user can see from the library of posts for relevant hobby or search and can communicate in the appropriate chatroom. 
+
+## 6
+As a user I want to have a clean interface where I can find what I want with ease in an aesthetically pleasing way.
+
+**Elaboration:** Users want to be able to navigate the application with ease to have a nice experience and properly interact with the app. This would be done by choosing a clean app design and theme.
+
+**Constraints:** Choosing a nice theme, learning Flutter formatting, and spending time adjusting aesthetics. 
+
+**Effort Estimation:** 5 person hours
+
+**Acceptance-Test:** Make sure a new user can hop on the app and understand everything they are doing while receiving positive feedback on the aesthetics.
+
+
+## 7
+As a user I want to have the tools present to me that allow me to develop and get better at my specific hobby.
+
+**Elaboration:** Users want to be able to use tools such as an inventory (for paint brushes/paint for example), a metronome for musicians, or a Pomodoro timer for concentration.
+
+**Constraints:** Developing genre specific tools.
+
+**Effort Estimation:** 2 person hours per tool.
+
+**Acceptance-Test:** Make sure all the tools are functioning and that each genre has some relevant tool that helps.
+
+## 8
+As a user I want to be able to practice my hobbies and learn new things anywhere I am and whenever I want.
+
+**Elaboration:** Users want to be able to have the app on all their devices and access it from anywhere on any device.
+
+**Constraints:** Making sure the app runs correctly on android IOS and web.
+
+**Effort Estimation:** 2 person hours
+
+## 9
+
+As a user I want to be able to login with my google acount, so I don't have to have another account password to remember.
+
+**Elaboration:** Users want to be able to sign into apps with 1 account to simpilify their online life.
+
+**Constraints:** Set up google logon or another social logon so the user can sign in with it.
+
+**Effort Estimation:** 3 person hours
+
+## 10
+
+As a user I want to have easy access to an overview of what is going on with my hobbies right now.
+
+**Elaboration:** Users want a dashboard in an app where they can see a breif overview of what is going on.
+
+**Constraints:** Set up a home page with overviews from the other portions of the app. Timer, calendar, social, etc.
+
+**Effort Estimation:** 4 person hours
+
