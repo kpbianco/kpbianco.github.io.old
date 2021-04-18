@@ -38,7 +38,7 @@ Some of the constrains we have are being able to find information about the hobb
 
 **2.6 Assumptions and Dependencies**
 
-We do have some dependences. We depend on the firebase auth so that users can login to the app. And there are plugins for the calendar and timer needed to display the calendar, play audio on the timer and send notifications for the timer and other parts of the app.
+We do have some dependences. We depend on the firebase auth so that users can login to the app. And there are plugins for the calendar and timer needed to display the calendar, play audio on the timer and send notifications for the timer and other parts of the app. Some other assumptions are that the database will sync the user data correctly. The database will also depend on firebase like the login.
 
 **3. Functional Requirements**
 
