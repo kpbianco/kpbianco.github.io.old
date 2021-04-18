@@ -6,7 +6,7 @@ This state is sent to the database server, where it is stored for cloud access a
 
 ## Arch Explination
 
-Here is a diagram of our architecture from our presentation showing the design of our app with the central data store. This shows how we have a client server relationship with regards to our app. This client server shows how the app syncs data to the server and how the app will pull data back from the server.
+Here is a diagram of our architecture from our presentation showing the design of our app with the central data store. This shows how we have a client server relationship with regards to our app. This client server shows how the app syncs data to the server and how the app will pull data back from the server. For our server we are using FireBase becuase of its easy integration with flutter, both being made by Google. The data transfer between FireBase and our app will be through the internet. The client will be using the FireBase Flutter plugin to communicate with the server to download and push new user data.
 
 ![Diagram](arch.png)
 
