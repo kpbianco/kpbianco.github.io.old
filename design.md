@@ -4,9 +4,9 @@ Our system is a user-modified client, that processes the user's data regarding t
 
 This state is sent to the database server, where it is stored for cloud access and storage. The feedback we received was that our architecture design was the correct one for the job, and that we chose correctly, so we implemented it full steam ahead.
 
-## Arch Explination
+## Arch Explanation
 
-Here is a diagram of our architecture from our presentation showing the design of our app with the central data store. This shows how we have a client server relationship with regards to our app. This client server shows how the app syncs data to the server and how the app will pull data back from the server. For our server we are using FireBase becuase of its easy integration with flutter, both being made by Google. The data transfer between FireBase and our app will be through the internet. The client will be using the FireBase Flutter plugin to communicate with the server to download and push new user data.
+Here is a diagram of our architecture from our presentation showing the design of our app with the central data store. This shows how we have a client server relationship with regards to our app. This client server shows how the app syncs data to the server and how the app will pull data back from the server. For our server we are using FireBase becuase of its easy integration with flutter, both being made by Google. The data transfer between FireBase and our app will be through the internet. The client will be using the FireBase Flutter plugin to communicate with the server to download and push new user data. HobbyClass is also inteegrated into the database so it can call it and fetch and store new data when the user creates new events or uses the timer.
 
 ![Diagram](arch.png)
 
@@ -18,3 +18,5 @@ The major classes in our system are the ones related to auth, where it sends che
 Our control is single threading, but waits asynchronously, so it emulates being multithreading as a result.
 
 Some external communication that could affect control is syncing to the database. If it is down, then the data that is synced will not be fresh and there could be a conflict. Some ways to fix this would be to make sure the database is up before trying to save anything and if there is something to sync merging them together when the database comes back up.
+
+

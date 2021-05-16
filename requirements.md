@@ -4,16 +4,15 @@
 
 **1.1 Purpose of Product**
 
-We want to make an app to help people find new hobbies and improve on ones they are already learning. We think that everyone wants to learn something new, so we believe that this app with help with that by showing people their true potential in their skillsets. 
+We wanted to make an app to help people find new hobbies and improve on ones they are already learning. We think that everyone wants to learn something new, so we believe that this app with help with that by showing people their true potential in their skillsets. We got a lot of the base features implimted but not a lot of the hobby info features.
 
 **1.2 Scope of Product**
 
 Our scope is to help more people learn and focus. By tracking how long you are spending practicing people can know how long they have been practicing and feel more accomplished in their task.
 
-
 **2. General Description of Product**
 
-Our app will have a timer to track the amount of time each person is spending on their hobby and use that time to show them the total time they have been practicing. Then they can view all their practice times in one place to track their progress. They will also be able to discover new hobbies through the app to learn new skills. There will be a journal function so that they can track their thoughts also to get what is in their mind out so that they can organize it.
+Our app has a timer to track the amount of time each person is spending on their hobby and use that time to show them the total time they have been practicing. Then they can view all their practice times in one place to track their progress.
 
 **2.1 Context of Product**
 
@@ -23,27 +22,26 @@ The environment our app will be in is a personal environment. For example, at ho
 Display and describe your domain model.
 ![Diagram](Diagram.png)
 
-Our diagram shows the flow from logon to the main page. It starts off at the bottom with the user inputting data then it signs them it and check with the auth servers to make sure they are a valid user. Then it calls the wrapper function which in turn calls main. But if the user is logged in the program can skip all this and just calls main. Main in turn calls home which has all the other pages of the app attached to it.
+Our diagram shows the flow starting from the database. The database has the models for each of the things we wanted to access in it. Then the Sign in and Register pages both use the database to fuction. These both use auth to pass you to the loading screen. And finally, the loading screen passes you to main which loads home. All the other app functions are from home as a bottom nav bar for ease of access.
 
 **2.3 Product Functions (general)**
-Our product will have a timer to track the practice time of users. It will also have a calendar to show the information from the timer. A home page that brings everything together and a way to enhance your skills for hobbies and a way to discover new hobbies. 
+Our product has a timer to track the practice time of users. It also has a calendar to show the information from the timer.
 
 **2.4 User Characteristics and Expectations**
 
-The users that will use this app will want to learn something new or want to get better at something they don’t know that well. They will understand something but would like to know more.
+The users that will use this app will want to practice and focus on their hobbies so that they can improve.
 
 **2.5 Constraints**
 
-Some of the constrains we have are being able to find information about the hobbies on the app so that people can learn new information. Another constraint we have is to make sure the information we are providing is accurate.
+Some of the constrains we have been being able to find information about the hobbies on the app so that people can learn new information. Another constraint we have is to make sure the information we are providing is accurate.
 
 **2.6 Assumptions and Dependencies**
 
-We do have some dependences. We depend on the firebase auth so that users can login to the app. And there are plugins for the calendar and timer needed to display the calendar, play audio on the timer and send notifications for the timer and other parts of the app. Some other assumptions are that the database will sync the user data correctly. The database will also depend on firebase like the login.
+We do have some dependences. We depend on the firebase auth so that users can login to the app. And there are plugins for the calendar and timer needed to display the calendar, play audio on the timer, and send notifications for the timer and other parts of the app. Some other assumptions are that the database will sync the user data correctly. The database will also depend on firebase like the login. We also depend on firebase storage to run the hobby tracking; this stores the times so that they can be called back later.
 
 **3. Functional Requirements**
 
 [https://kpbianco.github.io/userstories.html]()
-
 
 **4. System and Non-functional Requirements**
 
@@ -86,6 +84,9 @@ The timer function will be simple, and work as expected by tracking the timer th
 NF.4.4.2:
 The calendar will take info from the timer and display it in a simple way that will show the time practicing.
 
+**(Future Work)**
+
 NF.4.4.3:
 The discovery function will be simple so they can just pick from a list of new hobbies. The quality for this will be simple and clean so that they can see the new hobbies to choose from.
+
 

@@ -1,4 +1,4 @@
-## 1
+## 1 (Future Work)
 
 As a user I want to be able to find new hobbies and learn something things that help me improve my skillsets and let me pursue in my interests.
 
@@ -9,7 +9,7 @@ Effort Estimation: 3 person hours
 
 **Acceptance-Test:** Make sure all the options on the quiz have hobbies corresponding to them, also making sure selecting hobbies from the list adds them to the users account and let’s them track the hobbies in the future.
 
-## 2
+## 2 (Future Work)
 As a user I want to focus more on the hobbies I am learning about more effectively so I can improve.
 
 **Elaboration:** This app would allow users to learn new things about the hobbies that they choose. This could be accomplished by showing helpful tips for the hobbies that they choose, common tutorials, professional help, and a community.
@@ -32,7 +32,7 @@ Constraints: Creating the AI that would be functional.
 
 **Acceptance-Test:** Do mock tracking for a hobby and check to make sure that the activity appears on the calendar for the user and gives relevant feedback.
 
-## 4
+## 4 (Future Work)
 As a user I want a journal to write down my thoughts so I can organize my thoughts about my hobbies.
 
 **Elaboration:** Sometimes users would find it helpful to write down their thoughts so that they could be organized in their hobbies. This could be implemented in the app by just having a journal that syncs with their account where they could select their hobby and write about that one so that they could keep them separated.
@@ -43,7 +43,7 @@ As a user I want a journal to write down my thoughts so I can organize my though
 
 **Acceptance-Test:** Add hobbies to the app and write different things in the journals for each hobby and then come back to make sure the text is saved and for the hobby that the user was writing about.
 
-## 5
+## 5 (Future Work)
 As a user I want to connect with other people learning a hobby to feel more fulfilled in my hobbies, share my accomplishments, revel in others, and have a sense of belonging in my community.
 
 **Elaboration:** Having someone to connect with about your hobbies can help you learn new things since you can also learn skills from someone else. This can be accomplished by a forum function in the app where users can connect with other people in the hobbies they want, in addition to hobby-skill-based chatrooms.
@@ -86,7 +86,7 @@ As a user I want to be able to practice my hobbies and learn new things anywhere
 
 **Effort Estimation:** 2 person hours
 
-## 9
+## 9 (Future Work)
 
 As a user I want to be able to login with my google acount, so I don't have to have another account password to remember.
 
@@ -96,7 +96,7 @@ As a user I want to be able to login with my google acount, so I don't have to h
 
 **Effort Estimation:** 3 person hours
 
-## 10
+## 10 (Future Work)
 
 As a user I want to have easy access to an overview of what is going on with my hobbies right now.
 
